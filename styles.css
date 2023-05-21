@@ -161,3 +161,11 @@ section {
   padding: 0.5rem;
   text-transform: uppercase;
 }
+
+#form input,
+.cost,
+.btn {
+  box-sizing: border-box;
+  border: 2px solid #4a3030;
+  border-radius: 0.4rem;
+}
