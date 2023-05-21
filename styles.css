@@ -113,3 +113,51 @@ section {
   width: 60rem;
   height: 30rem;
 }
+
+#Pricing {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.cost {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.cost > .type {
+  background-color: #bf9b9b;
+  color: #1f0f00;
+  width: 100%;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.cost h2 {
+  margin: 0;
+}
+
+.cost ul {
+  padding-right: 2rem;
+}
+
+.cost li {
+  text-align: justify;
+  font-size: 1.8rem;
+}
+
+.cost .btn {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #754848;
+  color: #f7f7f7;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
