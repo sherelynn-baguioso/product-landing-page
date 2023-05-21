@@ -80,3 +80,31 @@ a {
   padding: 0.5rem;
   background-color: rgba(222, 125, 65, 0.764);
 }
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  gap: 8rem;
+  place-items: center;
+}
+
+section {
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 8rem 2fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.icon {
+  font-size: 6rem;
+}
+
+.description p {
+  font-size: 1.8rem;
+}
