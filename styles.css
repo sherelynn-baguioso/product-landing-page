@@ -50,3 +50,33 @@ a {
   text-decoration: none;
   color: #613000;
 }
+
+#hero {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  height: 20rem;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 2.5rem;
+  word-wrap: break-word;
+}
+
+#form input[type='email'] {
+  max-width: 20rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#form input[type='submit'] {
+  max-width: 10rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  background-color: rgba(222, 125, 65, 0.764);
+}
