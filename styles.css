@@ -1,0 +1,11 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #e6d7d7;
+  color: #472400;
+  margin: 0;
+  scroll-behavior: smooth;
+}
