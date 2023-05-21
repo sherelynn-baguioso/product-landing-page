@@ -193,3 +193,63 @@ footer > span {
   margin-top: 0.5rem;
   font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 860px) {
+  #header {
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    height: 8rem;
+  }
+
+  #header h2 {
+    font-size: 1.5rem;
+  }
+
+  #nav-bar > ul {
+    margin-right: 2rem;
+  }
+
+  #nav-bar li {
+    padding: 0 0.5rem;
+  }
+
+  #hero {
+    margin-top: 8rem;
+  }
+
+  #hero h2 {
+    font-size: 1.8rem;
+  }
+
+  .description h2,
+  .description p {
+    font-size: 1.7rem;
+    margin: 1rem auto;
+  }
+
+  .icon {
+    font-size: 5rem;
+  }
+
+  #Custom-Cakes {
+    width: 80%;
+  }
+
+  .grid {
+    gap: 0;
+  }
+
+  #Pricing {
+    gap: 0;
+  }
+
+  .cost {
+    margin: 0 2rem;
+  }
+
+  .cost .type,
+  .cost h2,
+  .cost li {
+    font-size: 1.5rem;
+  }
+}
