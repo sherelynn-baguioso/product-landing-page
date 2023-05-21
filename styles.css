@@ -285,3 +285,42 @@ footer > span {
     font-size: 1.2rem;
   }
 }
+
+@media only screen and (max-width: 520px) {
+  #header {
+    display: block;
+    font-size: 0.8rem;
+    height: 11rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  #nav-bar {
+    width: 100%;
+    height: auto;
+    background-color: white;
+  }
+
+  #nav-bar ul {
+    margin: 0;
+  }
+
+  #nav-bar li {
+    display: block;
+    text-align: center;
+  }
+
+  #hero h2 {
+    margin-top: 8rem;
+    font-size: 1.6rem;
+  }
+
+  .description h2,
+  .description p {
+    font-size: 1.4rem;
+  }
+}
