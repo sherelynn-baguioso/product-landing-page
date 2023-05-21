@@ -108,3 +108,8 @@ section {
 .description p {
   font-size: 1.8rem;
 }
+
+#video {
+  width: 60rem;
+  height: 30rem;
+}
