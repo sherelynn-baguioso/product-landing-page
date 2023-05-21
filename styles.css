@@ -170,7 +170,6 @@ section {
   border-radius: 0.4rem;
 }
 
-
 footer {
   background-color: #ede3e3;
   font-size: 2rem;
@@ -251,5 +250,38 @@ footer > span {
   .cost h2,
   .cost li {
     font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  #header {
+    font-size: 1rem;
+  }
+
+  #nav-bar li {
+    font-size: 1.5rem;
+    padding: 0 0.3rem;
+  }
+
+  .container {
+    grid-auto-flow: row;
+  }
+
+  #video {
+    width: 80vw;
+  }
+
+  #Pricing {
+    grid-template-columns: 24rem;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  footer {
+    font-size: 1.6rem;
+  }
+
+  footer > span {
+    font-size: 1.2rem;
   }
 }
